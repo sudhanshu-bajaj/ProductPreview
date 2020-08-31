@@ -1,0 +1,20 @@
+{
+  "name": "bajaj/product-preview",
+  "version": "1.0.0",
+  "description": "Magento 2 Admin Product Preview",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bajaj\\ProductPreview\\": ""
+    }
+  }
+}
